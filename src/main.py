@@ -18,7 +18,7 @@ wiki_page = BeautifulSoup(request_results.text, "html.parser")
 # for paragraph in wiki_page.select('p'):
 #     print(paragraph.getText())
 
-with open('powerwiki' + wiki_page.find("h1", {"id": "firstHeading"}).getText() + '.txt', 'w') as f:
+with open(wiki_page.find("h1", {"id": "firstHeading"}).getText() + '.txt', 'w') as f:
     f.write(wiki_page.find("h1", {"id": "firstHeading"}).getText() + "\n\n\n")
 
     for paragraph in wiki_page.select('p'):
