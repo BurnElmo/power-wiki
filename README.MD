@@ -1,8 +1,7 @@
 # Power-Wiki
 #### Power Wiki is a basic Wikipedia scraper that generates a text file from the given url and max header count
 ## Usage
-Clone / Download the repository<br>
-Clone with<br>
+Clone (or download) with<br>
 `git clone https://github.com/BurnElmo/power-wiki.git`
 <br>Go into the directory you just cloned to<br>
 `cd .\power-wiki\`
