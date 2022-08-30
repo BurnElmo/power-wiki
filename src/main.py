@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 
 print("Keep in mind, the maximum header count, and the entire program might not be fully accurate since this is my first attempt at webscraping")
 
-# Add input functionality with the amount of links or command line arguments
 url = input("Enter a valid Wikipedia URl: ")
 print(url)
 
