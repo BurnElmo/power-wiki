@@ -8,8 +8,6 @@ maxCont = int(input("Enter the maximum amount of paragraphs: "))
 
 request_results = requests.get(url)
 
-# Grab the main image and the first paragraph(s)
-
 wiki_page = BeautifulSoup(request_results.text, "html.parser")
 
 # Title:
